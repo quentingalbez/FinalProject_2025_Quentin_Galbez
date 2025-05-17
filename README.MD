@@ -87,29 +87,15 @@ pyspark
 
 ---
 
-## 📂 .gitignore
-
-Typical contents:
-```
-__pycache__/
-*.pyc
-data/data_detail/
-KuaiRec*
-```
-
----
-
 ## 🔍 Model Insights
 
 ### 🔹 Two Towers Model
 - ✅ **Strengths**: Captures nonlinear patterns in user/item features.
 - ❌ **Weaknesses**: Susceptible to overfitting, needs better features.
-- 🚀 **Future Work**: Add features, tune architecture, try dropout/l2.
 
 ### 🔹 ALS Model
 - ✅ **Strengths**: Scalable, robust for dense interaction data.
 - ❌ **Weaknesses**: Cold-start problem, linear assumptions.
-- 🚀 **Future Work**: Combine with content-based models (hybrid).
 
 ---
 
